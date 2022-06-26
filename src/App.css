@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap');
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body{
+  font-family: Quicksand, sans-serif;
+  background-color: #f6f6f6;
+  line-height: 30px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.sign{
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: blue;
   color: white;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  margin-bottom: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.sign:hover{
+  cursor: pointer;
+  background-color: #00bcd4;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sign2{
+  display: flex;
+  align-items: center;
+}
+
+p{
+  margin-left: 10px;
 }
